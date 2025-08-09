@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PBX Car Cafe - Car PPF & Detailing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: black;
+      color: white;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 1.2rem;
+      text-align: center;
+font-size: 25px;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: white;
+    }
+    .hero {
+      background: url('https://i.shgcdn.com/aceda2c7-d994-4107-ba72-8bad9dc5dea9/-/format/auto/-/preview/3000x3000/-/quality/lighter/') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: space-around;
+    }
+    .card {
+      background: grey;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #000;
+      color: silver;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.testimonial {
+  background: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-style: normal; /* remove italic for cleaner card */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px;
+}
+
+.testimonial p {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.testimonial h4 {
+  margin: 0;
+  font-weight: bold;
+  color: #ccc;
+  text-align: right;
+}
+
+.contact-info {
+  margin: 2rem auto 0 auto;
+  color: grey;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 400px;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PBX Car Cafe</h1>
+    <p>Premium PPF & Car Detailing Services</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Protect Your Drive, Shine for Life</h1>
+  </div>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Paint Protection Film (PPF)</h3>
+        <p>Self-healing, high-gloss film that guards your paint from scratches, chips, and UV damage.</p>
+      </div>
+      <div class="card">
+        <h3>Window Tinting</h3>
+        <p>Enhance vehicle's style, comfort, and protection with our premium window tinting. We offer UV protection, heat reduction, privacy, and a sleek finish—backed by expert installation .</p>
+      </div>
+      <div class="card">
+        <h3>Detailing Packages</h3>
+        <p>Interior and exterior detailing to restore your vehicle's showroom shine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      At PBX Car Cafe, we combine advanced technology and expert craftsmanship to protect and enhance your vehicle’s appearance. Trusted by car enthusiasts and luxury car owners, we offer tailored packages that match your needs.
+    </p>
+  </section>
+
+<section class="section" id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <p>"PBX Car Cafe did an awesome job! No bubbles, perfect finish. I love it!"</p>
+      <h4>- Rai</h4>
+    </div>
+    <div class="testimonial">
+      <p>“Hands down the best detailing service I’ve experienced. The team at PBX Car Cafe is professional, meticulous, and truly passionate about cars. My paint is gleaming and the interior smells amazing. Worth every penny!”</p>
+      <h4>- Jaswinder Uppal.</h4>
+    </div>
+    <div class="testimonial">
+      <p>“Top-notch service! I got my windows tinted at PBX Car Cafe and the quality is outstanding. The tint looks sleek, blocks out the heat perfectly, and was installed with absolute precision. The team was professional, knowledgeable, and super friendly. You can really tell they take pride in their work. Highly recommend PBX Car Cafe for anyone looking to upgrade their ride!”</p>
+      <h4>- Rubanbreet Dhillon</h4>
+    </div>
+ <div class="testimonial">
+      <p>"I would highly recommend this business to others."</p>
+      <h4>- Courier Ltd</h4>
+    </div>
+  </div>
+</section>
+
+ <section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info" style="margin-top: 2rem; color: white; font-size: 1rem;">
+    <p><strong>Address:</strong> 1118 Wallace St, Regina, SK S4N 3Y9</p>
+    <p><strong>Phone:</strong> (639) 997-0222</p>
+    <p><strong>Province:</strong> Saskatchewan</p>
+  </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 PBX Car Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
